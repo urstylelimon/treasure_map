@@ -14,4 +14,5 @@ colum = int(position[1])
 selected_row = map[row-1]
 selected_row[colum - 1] = "X"
 
+print("_____Here is your new matix with your entered location_____")
 print(f"{row1}\n{row2}\n{row3}\n{row4}")
